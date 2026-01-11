@@ -1,7 +1,7 @@
 import React from 'react'
 import vsauce_logo from '../../assets/vsauce_logo.svg'
 import youtube_logo from '../../assets/youtube_logo.png'
-import NavItem from './navItem'
+import NavItem from './NavItem'
 
 const Navbar = () => {
   const navList =[

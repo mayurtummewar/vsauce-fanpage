@@ -148,7 +148,7 @@ const Content = () => {
             </div>
 
             <p className='text-xl text-justify leading-8 py-20'> Some Bonus Videos :-</p>
-            <div>
+            <div className='pb-20'>
               {bonusVideoList.map(function(elem, idx){
                 return <div key={idx}>
                   <VideoItem name={elem.videoName} redirect={elem.videoLink} thumbnail={elem.videoThumbnail} description={elem.videoDescription} />
